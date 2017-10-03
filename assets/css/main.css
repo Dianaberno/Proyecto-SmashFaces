@@ -24,7 +24,7 @@ select {
 
 #todo {
     width: 50%;
-    height: 760px;
+    height: 600px;
     max-width: 1000px;
     margin: right;
     background-color: #333333;
@@ -60,14 +60,6 @@ form {
     cursor: pointer;
 }
 
-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    margin-top: 135px;
-}
-
 @media(max-width:480px) {
     #todo,
     .form {
@@ -80,4 +72,10 @@ img {
     .form-register {
         height: 50%;
     }
+}
+
+.main {
+    width: 50%;
+    max-width: 1000px;
+    margin: 20px auto;
 }

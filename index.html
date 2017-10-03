@@ -14,21 +14,27 @@
 
 <body>
 
-    <nav class="navbar navbar-default navbar-fixed-top ">
+    <header class="navbar navbar-default navbar-fixed-top ">
         <h3 for="exampleInputName1">Smash Faces</h3>
-        <p for="exampleInputName1">Bienvenido al juego de Smash Faces, tu misión es poder identificar a todas tus compañeras de clase ingresando para <br> ellos su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</p>
         <div class="container navbar-inline">
-            <label for="exampleInputName2">Elige tu sede: </label>
-            <select name="" id="select" class="navbar-center nav">
-                <option value="">Selecciona una opción</option>
-                <option value="chile4tap">4ta Promoción Chile</option>
-                <option value="lima5tap">5ta Promoción Lima</option>
-                <option value="lima6tap">6ta Promoción Lima</option>
-            </select>
+            <div class="col-xs-4 col-md-4 col-lg-4">
+                <center>
+                    <h1><i class="fa fa-info-circle" aria-hidden="true" id="btnInstructions"></i></h1>
+                </center>
+                <div class="instructions">
+                    Bienvenida al juego de Smash Faces, tu misión es poder identificar a todas tus compañeras de clase , ingresando para ello su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente imagen. Buena Suerte!
+                </div>
+            </div>
+
         </div>
-    </nav>
-    <img src="assets/img/anais-araya.jpg" class="img-responsive" alt="Responsive image">
+    </header>
     <div class="container" id="todo">
+        <label for="exampleInputName2">Elige tu sede: </label>
+        <select name="" id="select" class="navbar-center nav">
+                <option value="">Selecciona una opción</option>
+                <option value="chile">Chile</option>
+                <option value="lima">Lima</option>
+            </select>
         <form class="form-inline-block ">
             <div class="form-group">
                 <label for="exampleInputName2">Ingrese su Nombre:</label>
@@ -37,6 +43,8 @@
             <button type="submit" class="btn btn-warning btn-md">comprobar</button>
         </form>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/app.js"></script>
     <script src=" https://unpkg.com/sweetalert/dist/sweetalert.min.js ">
     </script>
     <script src="assets/js/app.js"></script>
