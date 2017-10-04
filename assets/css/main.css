@@ -12,6 +12,8 @@ body {
 .titulo {
     font-family: 'Rokkitt', serif;
     width: 100%;
+    color: #A32424;
+    font-size: 30px;
 }
 
 hr {
@@ -23,6 +25,8 @@ hr {
 
 .instruccion {
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: black;
 }
 
 .container {
@@ -55,8 +59,8 @@ hr {
 }
 
 #puntos {
-    font-size: 2em;
-    color: black;
+    font-size: 5em;
+    color: #8D4A4A;
     position: absolute;
     right: 12%;
     top: 13%;
