@@ -9,45 +9,52 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto|Rokkitt" rel="stylesheet">
     <link rel="shortcut icon" href="assets/img/adi.ico">
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 </head>
 
 <body>
-
-    <header class="navbar navbar-default navbar-fixed-top ">
-        <h3 for="exampleInputName1">Smash Faces</h3>
-        <div class="container navbar-inline">
-            <div class="col-xs-4 col-md-4 col-lg-4">
-                <center>
-                    <h1><i class="fa fa-info-circle" aria-hidden="true" id="btnInstructions"></i></h1>
-                </center>
-                <div class="instructions">
-                    Bienvenida al juego de Smash Faces, tu misión es poder identificar a todas tus compañeras de clase , ingresando para ello su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente imagen. Buena Suerte!
-                </div>
-            </div>
-
+    <header class="container">
+        <div class="titulo">
+            <h1>Smash Faces</h1>
+            <hr>
+        </div>
+        <div class="instruccion">
+            <p>Bienvenidas al juego de Smash Faces, tu misión es poder identificar a todas tus compañeras de clase ingresando para ellos su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</p>
         </div>
     </header>
-    <div class="container" id="todo">
-        <label for="exampleInputName2">Elige tu sede: </label>
-        <select name="" id="select" class="navbar-center nav">
-                <option value="">Selecciona una opción</option>
-                <option value="chile">Chile</option>
-                <option value="lima">Lima</option>
-            </select>
-        <form class="form-inline-block ">
-            <div class="form-group">
-                <label for="exampleInputName2">Ingrese su Nombre:</label>
-                <input type="text" class="form-control" id="exampleInputName2" placeholder="Nombre">
+    <section class="container">
+        <div class="sede">
+            <p>Elige tu sede:
+                <select id="sede">
+                        <option>Selecciona tu sede</option>
+                        <option value="peru">Perú</option>
+                        <option value="chile">Chile</option>
+                    </select>
+        </div>
+        </p>
+        <span id="puntos"></span>
+    </section>
+    <section class="container">
+        <div class="flex-content">
+            <div class="coder">
+                <img src="">
             </div>
-            <button type="submit" class="btn btn-warning btn-md">comprobar</button>
-        </form>
-    </div>
+            <div class="play">
+                <div class="content-play">
+                    <p>Ingresa su nombre:</p>
+                    <input type="text" id="nombre" placeholder="Nombre"><br>
+                    <button>COMPROBAR</button>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/peru.js"></script>
+    <script src="assets/js/chile.js"></script>
     <script src=" https://unpkg.com/sweetalert/dist/sweetalert.min.js ">
     </script>
-    <script src="assets/js/app.js"></script>
+
 </body>
 
 </html>
