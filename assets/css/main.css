@@ -46,7 +46,7 @@ hr {
     background-size: cover;
     background-repeat: no-repeat;
     border: 3px solid #685540;
-    border-radius: 15px;
+    border-radius: 5px 90px 5px;
 }
 
 .play {
@@ -59,11 +59,12 @@ hr {
 }
 
 #puntos {
-    font-size: 5em;
-    color: #8D4A4A;
+    font-size: 1.5em;
+    color: #882F2F;
+    font-weight: bold;
     position: absolute;
     right: 12%;
-    top: 13%;
+    top: 19%;
 }
 
 #sede {
@@ -82,7 +83,7 @@ img {
     width: 100%;
     height: 100%;
     border: 3px solid #685540;
-    border-radius: 15px;
+    border-radius: 5px 90px 5px;
 }
 
 section {
